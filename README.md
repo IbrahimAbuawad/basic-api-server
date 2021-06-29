@@ -6,9 +6,9 @@
 
 ### Links and Resources
 
-- [GitHub Actions](https://github.com/IbrahimAbuawad/basic-express-server/actions) 
-- [Pull Request](https://github.com/IbrahimAbuawad/basic-express-server/pull/1)
-- [HEROKU App](https://ibrahimawad-basic-express-serv.herokuapp.com)
+- [GitHub Actions](https://github.com/IbrahimAbuawad/basic-api-server/actions) 
+- [Pull Request](https://github.com/IbrahimAbuawad/basic-api-server/pull/1)
+- [HEROKU App](https://ibrahimawad-basic-api-server.herokuapp.com)
 
 ### Setup
 
