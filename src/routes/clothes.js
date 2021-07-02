@@ -12,10 +12,10 @@ const router = express.Router();
 
 // routes
 router.get('/', getClothes); 
-router.get('/:id', validator, getClothes);
+router.get('/:id',  getClothes);
 router.post('/', createCloth);
-router.put('/:id',validator, updateCloth);
-router.delete('/:id',validator, deleteCloth);
+router.put('/:id', updateCloth);
+router.delete('/:id', deleteCloth);
 
 function getClothes(req, res) {
   const resObj = clothes.read(req.params.id);

@@ -34,9 +34,6 @@ app.use('/food',foodRouter);
 
 
 
-app.get('/bad', (req, res) => {
-  throw new Error('Error');	
-});
 
 
 
