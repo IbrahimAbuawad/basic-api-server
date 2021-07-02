@@ -8,14 +8,11 @@ class Clothes {
 
 
   create(obj) {
-    if (obj.name && obj.price) {
+    if (obj) {
 
       const record = {
         id: uuid(),
-        data: {
-          name: obj.name,
-          price: obj.price,
-        },
+        data: obj,
       };
       this.db.push(record);
       return record;
